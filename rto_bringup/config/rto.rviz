@@ -394,6 +394,10 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
+      Marker Topic: /visualization/local_path
+      Name: Local_path
+    - Class: rviz/Marker
+      Enabled: true
       Marker Topic: /visualization/plan
       Name: Global_path
       Namespaces:
